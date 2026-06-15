@@ -142,17 +142,25 @@ This project demonstrates that I can:
 
 ## Repository Structure
 
-```text
 weekly-sales-reporting-automation/
 ├── README.md
 ├── workflow/
 │   └── n8n-workflow.json
 ├── screenshots/
-│   └── workflow-overview.png
+│   ├── 01_workflow_overview.png
+│   ├── 02_schedule_trigger.png
+│   ├── 03_http_request_node.png
+│   ├── 04_if_node.png
+│   ├── 05_edit_fields_node.png
+│   ├── 06_airtable_create_record.png
+│   ├── 07_code_node.png
+│   └── 08_discord_output.png
 ├── sample-data/
 │   └── api-response.json
 ├── docs/
 │   ├── process-description.md
 │   └── error-handling.md
-└── output/
-    └── sample-output.png
+├── output/
+│   └── sample-output.png
+├── .gitignore
+└── .env.example
